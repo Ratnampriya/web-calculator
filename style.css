@@ -1,0 +1,85 @@
+*
+{
+margin: 0px;
+padding: 0ppx;
+font-family: cursive;
+}
+.head
+{
+    color: rgb(236, 10, 85);
+    text-align: center;
+    background-color:azure ;
+}
+.body-box{
+    background-color:azure;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box
+{
+    height: 400px;
+    width: 300px;
+    background-color: beige;
+    padding: 10px;
+    box-shadow:10px 10px 20px rgb(248, 123, 165),-10px -10px 20px rgb(117, 186, 239) ;
+
+}
+.heading
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-style: bold;
+    color: orangered;
+}
+#display
+{
+    height:60px ;
+    width:300px ;
+    border:none;
+    outline:none;
+    background: transparent;
+    box-shadow: inset 2px 2px 10px pink, inset -2px -2px 10px lavender ;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: aliceblue;
+}
+
+.Button-box
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.button
+{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color:lightcyan ;
+    box-shadow: 2px 2px 3px rgb(231, 121, 31), -2px -2px 3px rgb(67, 241, 218);
+    margin-bottom: 18px;
+    font-size: 15px;
+    
+}
+
+.button:active
+{
+    box-shadow: inset 1px 1px 2px rgb(230, 38, 102), -1px -1px 2px rgb(229, 78, 128);
+}
+
+.button:hover
+{
+    background-color: rgb(78, 181, 236);
+    cursor: pointer;
+    color:rgb(179, 18, 34);
+    font-size: 15px;
+    font-style: bold ;
+}
